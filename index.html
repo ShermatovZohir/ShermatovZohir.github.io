@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f7fb">
+  <title>Zohir | Shaxsiy sahifa</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bosh sahifaga">Z<span>.</span></a>
+    <nav aria-label="Asosiy navigatsiya">
+      <a href="#about">Men haqimda</a>
+      <a href="#courses">Fanlar</a>
+      <a href="#projects">Loyihalar</a>
+      <a href="#contact">Aloqa</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Rang rejimini almashtirish">☾</button>
+  </header>
+
+  <main id="home">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Inha University in Tashkent · IT talabasi</p>
+        <h1>Salom, men <span>Zohir</span>.</h1>
+        <p class="intro">Bu mening o‘qishim, amaliy ishlarim va aloqa ma’lumotlarim uchun shaxsiy sahifam.</p>
+        <a class="button" href="#projects">Ishlarimni ko‘rish <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="monogram">Z<span>.</span></div></div>
+    </section>
+
+    <section class="content-grid section-wrap" id="about">
+      <article class="panel about-panel">
+        <p class="eyebrow">01 / Men haqimda</p>
+        <h2>O‘rganaman, sinab ko‘raman, yarataman.</h2>
+        <p>Men Toshkentdagi Inha universitetida IT yo‘nalishida tahsil olaman. Bu sahifada o‘zim haqimdagi qisqa ma’lumot va o‘quv loyihalarimni joylayman.</p>
+      </article>
+      <article class="panel courses-panel" id="courses">
+        <p class="eyebrow">02 / Fanlar</p>
+        <h2>Hozir o‘rganayotganlarim</h2>
+        <ul class="plain-list">
+          <li><span>Kompyuter tarmoqlari</span><span class="tag">Faol</span></li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section-wrap projects-section" id="projects">
+      <div class="section-heading"><div><p class="eyebrow">03 / Loyihalar</p><h2>Amaliy ishlar</h2></div><span class="section-note">O‘qish davomida yaratilgan ishlar</span></div>
+      <article class="project-card">
+        <div class="project-number">01</div>
+        <div><h3>Network Detective</h3><p>DNS so‘rovi, IP manzillar, routerlar va HTTPS orqali tarmoq paketlarini o‘rganish.</p></div>
+        <span class="project-arrow" aria-hidden="true">↗</span>
+      </article>
+    </section>
+
+    <section class="section-wrap detective-section">
+      <div class="detective-card">
+        <div><p class="eyebrow">04 / Network Detective</p><h2>Tarmoqdagi izlar</h2><p>Lecture 7 dagi asosiy g‘oyalar: DNS nomni IP manzilga bog‘laydi, router paketlarni keyingi tarmoqqa uzatadi, HTTPS esa uzatishdagi ma’lumotni shifrlaydi.</p></div>
+        <dl class="facts">
+          <div><dt>Internet provayderi</dt><dd>Uzbektelekom · AS8193</dd></div>
+          <div><dt>Router va marshrut</dt><dd>Shaxsiy tarmoqdan ARP va traceroute ma’lumoti olinmadi.</dd></div>
+        </dl>
+        <p class="privacy-note">Ommaviy sahifada IP va MAC manzillar ko‘rsatilmaydi.</p>
+      </div>
+    </section>
+
+    <section class="section-wrap contact-section" id="contact">
+      <div><p class="eyebrow">05 / Aloqa</p><h2>Gaplashamizmi?</h2><p>Men bilan GitHub profilim orqali bog‘lanishingiz mumkin.</p></div>
+      <a class="contact-link" href="https://github.com/ShermatovZohir">GitHub profilim <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><span>© <span id="year"></span> Zohir</span><span>Oddiy HTML, CSS va JavaScript bilan yaratildi.</span></footer>
+</body>
+</html>
+
+
